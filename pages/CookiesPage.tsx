@@ -30,19 +30,37 @@ const CookiesPage: React.FC = () => {
         <>
             <LegalPageLayout title="Política de Cookies" lastUpdated="1 de Janeiro de 2024">
                 <h2>1. O que são cookies?</h2>
-                <p>Cookies são pequenos arquivos de texto que são armazenados em seu computador ou dispositivo móvel quando você visita um site...</p>
-                
-                <h2>2. Como usamos os cookies?</h2>
-                <p>Usamos cookies para entender como você usa nosso site e para melhorar sua experiência. Isso inclui a personalização de conteúdo e publicidade...</p>
+                <p>Cookies são pequenos arquivos de texto armazenados no seu dispositivo (computador, smartphone ou tablet) quando você visita um site. Eles permitem que o site reconheça o seu navegador e capture informações sobre como você interage com o conteúdo exibido.</p>
 
-                <h2>3. Tipos de Cookies que Usamos</h2>
+                <h2>2. Como usamos os cookies?</h2>
+                <p>Na Academia Lendária, utilizamos cookies para melhorar a navegação, personalizar a experiência do usuário e entender como o site está sendo utilizado. Isso nos ajuda a oferecer conteúdos mais relevantes e otimizados para seu perfil e comportamento de navegação.</p>
+
+                <h2>3. Tipos de cookies que utilizamos</h2>
                 <ul>
-                    <li><strong>Cookies Essenciais:</strong> Necessários para o funcionamento do site.</li>
-                    <li><strong>Cookies de Desempenho:</strong> Coletam informações sobre como os visitantes usam o site.</li>
-                    <li><strong>Cookies de Funcionalidade:</strong> Lembram as escolhas que você faz.</li>
+                    <li><strong>Cookies Essenciais:</strong> Necessários para o funcionamento correto do site e para permitir o acesso a áreas seguras.</li>
+                    <li><strong>Cookies de Desempenho:</strong> Coletam informações sobre como os visitantes utilizam o site, como páginas mais acessadas e possíveis erros encontrados.</li>
+                    <li><strong>Cookies de Funcionalidade:</strong> Permitem que o site lembre escolhas feitas por você (como nome de usuário, idioma e região).</li>
+                    <li><strong>Cookies de Publicidade:</strong> Usados para entregar anúncios mais relevantes e medir a eficácia de campanhas publicitárias.</li>
                 </ul>
-                
-                <p>... (Conteúdo completo da política de cookies aqui)</p>
+
+                <h2>4. Por que usamos cookies?</h2>
+                <p>Os cookies nos ajudam a oferecer uma experiência mais personalizada, entender o comportamento dos usuários, otimizar campanhas de marketing e garantir que o conteúdo exibido atenda aos seus interesses e necessidades.</p>
+
+                <h2>5. Gerenciamento de cookies</h2>
+                <p>Você pode controlar e/ou excluir cookies através das configurações do seu navegador. Lembre-se de que, ao desativar determinados cookies, partes do site podem não funcionar corretamente.</p>
+                <p>Veja abaixo como gerenciar cookies nos principais navegadores:</p>
+                <ul>
+                    <li>Google Chrome</li>
+                    <li>Mozilla Firefox</li>
+                    <li>Safari</li>
+                    <li>Microsoft Edge</li>
+                </ul>
+
+                <h2>6. Alterações nesta política</h2>
+                <p>Podemos atualizar esta Política de Cookies periodicamente para refletir mudanças em nossas práticas ou por outros motivos operacionais, legais ou regulatórios. Recomendamos que você revise esta página regularmente para se manter informado sobre nosso uso de cookies.</p>
+
+                <h2>7. Contato</h2>
+                <p>Se tiver dúvidas sobre nossa Política de Cookies ou sobre o uso de seus dados, entre em contato conosco pelo e-mail: <a href="mailto:contato@valoresdigitais.com" className="text-primary underline">contato@valoresdigitais.com</a>.</p>
             </LegalPageLayout>
             <CookieConsentBanner />
         </>
