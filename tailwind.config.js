@@ -22,15 +22,15 @@ export default {
           dark: '#ea580c',    // orange-600
         },
         neutral: {
-          100: '#f8fafc', // slate-50
-          200: '#f1f5f9', // slate-100
-          300: '#e2e8f0', // slate-200
-          400: '#cbd5e1', // slate-300
-          500: '#94a3b8', // slate-400
-          600: '#64748b', // slate-500
-          700: '#475569', // slate-600
-          800: '#334155', // slate-700
-          900: '#1e293b', // slate-800
+          100: '#f8fafc', // slate-50 - Fundo geral
+          200: '#f1f5f9', // slate-100 - Fundo de seções alternadas
+          300: '#e2e8f0', // slate-200 - Bordas suaves
+          400: '#cbd5e1', // slate-300 - Bordas
+          500: '#94a3b8', // slate-400 - Texto desabilitado
+          600: '#64748b', // slate-500 - Texto secundário
+          700: '#475569', // slate-600 - Texto
+          800: '#334155', // slate-700 - Texto escuro, fundo do footer
+          900: '#1e293b', // slate-800 - Texto muito escuro
         }
       },
       fontFamily: {
